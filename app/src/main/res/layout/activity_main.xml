@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textSize="50sp"
+        />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
